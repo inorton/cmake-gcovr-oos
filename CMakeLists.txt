@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.9)
+cmake_minimum_required(VERSION 3.7)
 project(gcovr_cmake_test C)
 
 set(GCOV_LINK_FLAGS "--coverage")
