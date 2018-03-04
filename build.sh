@@ -14,4 +14,4 @@ make test_program
 ./test/test_program
 find . -type f -name *.gc*
 
-gcovr -v -r ..
+gcovr --gcov-executable=/usr/bin/gcov -v -r ..
